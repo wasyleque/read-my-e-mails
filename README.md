@@ -14,4 +14,4 @@ The script is already working, but got only few filters:
   - Python
   - pip install requests pyttsx3 beautifulsoup4
 
-Just install requirements, run python nameofthescript.py and enjoy ;)
+Just install requirements, run command: python run.py and enjoy ;)
