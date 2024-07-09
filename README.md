@@ -13,5 +13,12 @@ The script is already working, but got only few filters:
   Requirements:
   - Python
   - pip install requests pyttsx3 beautifulsoup4
+  - sudo apt-get update && sudo apt-get install espeak (under linux)
 
 Just install requirements, run command: python run.py and enjoy ;)
+
+If your`e using python environments, here are the steps:
+- mkdir venv
+- python3 -m venv venv/
+- venv/bin/pip install requests ppyttsx3 beautifulsoup4
+- ./venv/bin/python run.py
