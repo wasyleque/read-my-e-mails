@@ -22,3 +22,6 @@ If your`e using python environments, here are the steps:
 - python3 -m venv venv/
 - venv/bin/pip install requests ppyttsx3 beautifulsoup4
 - ./venv/bin/python run.py
+
+  Using summarize needs working fabric, you can configure it by taking steps from:
+  https://github.com/danielmiessler/fabric
