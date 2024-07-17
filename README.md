@@ -9,6 +9,7 @@ The script is already working, but got only few filters:
 - download e-mails beetween two dates : DATE_SINCE, DATE_BEFORE
 - filter and display only e-mails from senders mentioned in SENDER_DOMAINS
 - filter and display also e-mails with chosen keywords KEYWORDS
+- Voice configuration, you can set your language, just edit line: engine.setProperty('voice', 'polish')
 
   Requirements:
   - Python
@@ -25,3 +26,5 @@ If your`e using python environments, here are the steps:
 
   Using summarize needs working fabric, you can configure it by taking steps from:
   https://github.com/danielmiessler/fabric
+
+  Then You can create own pattern or use mine (dont forget to translate it to Your language)
